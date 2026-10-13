@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Samed</string>
+    <string name="tagline">Stay connected. Block ARP-spoofing cut-off attacks.</string>
+
+    <string name="start_protection">Start protection</string>
+    <string name="stop_protection">Stop protection</string>
+
+    <string name="protection_off">Protection is off</string>
+    <string name="protected_active">Protected — your gateway is locked</string>
+    <string name="working">Working…</string>
+    <string name="checking_root">Checking root access…</string>
+    <string name="no_root">Root access was not granted. Samed needs root to protect the connection.</string>
+
+    <string name="gateway_fmt">Gateway: %1$s</string>
+    <string name="mac_fmt">Router MAC: %1$s</string>
+    <string name="iface_fmt">Interface: %1$s</string>
+    <string name="blocked_fmt">Attempts blocked: %1$d</string>
+
+    <string name="footer_note">Samed locks your router\'s real MAC address so forged ARP packets are ignored by the kernel. Requires root.</string>
+</resources>
